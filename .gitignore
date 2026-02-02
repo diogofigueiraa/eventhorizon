@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Logs and caches
+*.log
+npm-debug.log*
+.npm
+.cache
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Cursor / IDE
+agent-tools/
+agent-transcripts/
+terminals/
+mcps/
