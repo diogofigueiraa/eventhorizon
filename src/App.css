@@ -360,6 +360,11 @@
   color: var(--purple-600);
 }
 
+.bottom-nav-item.active svg {
+  fill: var(--purple-600);
+  stroke: var(--purple-600);
+}
+
 .bottom-nav-item.active::after {
   content: '';
   position: absolute;
